@@ -1,0 +1,14 @@
+When you deposit $CE to the staking contract there is an annual yield of 20%. This yield is paid out in $CE  (0x8f12dfc7981de79a8a34070a732471f2d335eece). In return you will receive the exact same amount of deposited $CE in $CEG. $CEG can be considered a placeholder token instead of the deposited $CE. 
+
+Example:  Let's say you deposit 100 $CE to the staking contract for a period of 14 days. Directly upon depositing 100 $CE you receive 100 $CEG to your wallet. Once the 14 days are over and you withdraw your stake, you will: 
+
+1. Deposit 100 $CEG back to the contract in the same transaction
+2. Receive 100 $CE back to your wallet
+3. Receive your staking yield in $CE 
+
+The staking yield can be calculated according to this formula: 
+
+14: Staking duration in days
+100: Number of $CE Staked
+
+14÷365≈0,0384 → 0,0384×100≡3.84 $CE
